@@ -5,269 +5,170 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Dashboard</title>
-  <link rel="icon" type="image/x-icon" href="./img/pie-chart.svg">
+  <link rel="icon" type="image/x-icon" href="./img/logo.svg">
   <link rel="stylesheet" href="./styles.css">
   <script src="./script.js" defer></script>
 </head>
 <body>
-  <header>
-    <div class="header">
-      <p class="greeting">Hello, You</p>
-      <div class="icons">
-        <img src="./img/sun.svg" alt="sun" class="header-icon">
-        <img src="./img/search.svg" alt="search" class="header-icon">
-        <img src="./img/bell.svg" alt="bell" class="header-icon">
-        <img src="./img/user.svg" alt="user icon" class="header-icon">
-        <p class="user-header">Me</p>
-        <img src="./img/chevron-down.svg" alt="select" class="header-icon">
-      </div>
-    </div>
-  </header>
   <div class="sidebar">
-    <h1 class="logo">Your Logo</h1>
-    <div class="sidebar-options">
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/pie-chart (1).svg" alt="dashboard" class="sidebar-icon">
-        <p class="option">Dashboard</p>
+    <div class="logo">
+      <img src="./img/logo.svg" alt="logo">
+      <h1 class="dashboard">Dashboard</h1>
+    </div>
+    <div class="options">
+      <div class="option">
+        <img src="./img/icon-home.svg" alt="home">
+        <p class="option">Home</p>
       </div>
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/users.svg" alt="profiles" class="sidebar-icon">
-        <p class="option">User profiles</p>
+      <div class="option">
+        <img src="./img/icon-profile.svg" alt="profile">
+        <p class="option">Profile</p>
       </div>
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/message-square.svg" alt="messages" class="sidebar-icon">
+      <div class="option">
+        <img src="./img/icon-msg.svg" alt="messages">
         <p class="option">Messages</p>
       </div>
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/credit-card.svg" alt="transactions" class="sidebar-icon">
-        <p class="option">Transactions</p>
-      </div>  
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/wallet.svg" alt="wallet" class="sidebar-icon">
-        <p class="option">My wallet</p>
+      <div class="option">
+        <img src="./img/icon-history.svg" alt="history">
+        <p class="option">History</p>
       </div>
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/dollar-sign.svg" alt="payment" class="sidebar-icon">
-        <p class="option">Payment</p>
+      <div class="option">
+        <img src="./img/icon-tasks.svg" alt="tasks">
+        <p class="option">Tasks</p>
       </div>
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/bar-chart-2.svg" alt="investments" class="sidebar-icon">
-        <p class="option">Investment</p>
-      </div>
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/file-text.svg" alt="reports" class="sidebar-icon">
-        <p class="option">Reports</p>
+      <div class="option">
+        <img src="./img/icon-communities.svg" alt="communities">
+        <p class="option">Communities</p>
       </div>
     </div>
     <div class="settings">
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/settings.svg" alt="settings">
+      <div class="option">
+        <img src="./img/icon-setting.svg" alt="settings">
         <p class="option">Settings</p>
       </div>
-      <div class="sidebar-option">
-        <img class="sidebar-icon" src="./img/life-buoy.svg" alt="support">
+      <div class="option">
+        <img src="./img/icon-support.svg" alt="support">
         <p class="option">Support</p>
       </div>
-    </div>
-    <div class="logout">
-      <img src="./img/log-out.svg" alt="logout" class="sidebar-icon">
-      <p class="option">Log out</p>
-    </div>
-  </div>
-  <div class="outlay">
-    <div class="outlay-head">
-      <h2 class="h2">Outlay</h2>
-      <div class="prev-month">
-        <div class="purple circle"></div>
-        <p class="outlay-month">Previous month</p>
-      </div>
-      <div class="prev-month">
-        <div class="red circle"></div>
-        <p class="outlay-month">Selected month</p>
-      </div>
-      <div class="select">
-        <p class="p-select">April 2021</p>
-        <img src="./img/chevron-down.svg" alt="select arrow">
-      </div>
-    </div>
-    <div class="outlay-body">
-      
-    </div>
-  </div>
-  <div class="income">
-    <div class="income-head">
-      <h2 class="h2">Income</h2>
-      <div class="select">
-        <p class="p-select">Last Year</p>
-        <img src="./img/chevron-down.svg" alt="select arrow">
-      </div>
-    </div>
-    <div class="income-body">
-      <div class="dollars">
-        <p class="dollars-mark">$30,000</p>
-        <p class="dollars-mark">$20,000</p>
-        <p class="dollars-mark">$10,000</p>
-        <p class="dollars-mark">$0</p>
-      </div>
-      <div class="income-bars">
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Jan</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Feb</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Mar</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Apr</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">May</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Jun</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Jul</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Aug</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Sep</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Oct</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Nov</p>
-        <div class="income-empty-bar">
-          <div class="income-full-bar"></div>
-        </div>
-        <p class="income-month">Dec</p>
+      <div class="option">
+        <img src="./img/icon-privacy.svg" alt="privacy">
+        <p class="option">Privacy</p>
       </div>
     </div>
   </div>
-  <div class="latest-transactions">
-    <div class="lt-head">
-      <h2 class="h2">Latest Transactions</h2>
-      <div class="more">
-        <div class="point"></div>
-        <div class="point"></div>
-        <div class="point"></div>
-      </div>
+  <div class="header">
+    <div class="upper-header">
+      <img src="./img/icon-search.svg" alt="search" class="search">
+      <input type="search">
+      <img src="./img/icon-notif.svg" alt="notification" class="notif">
+      <img src="./img/logo-usr-mini.svg" alt="user icon" class="user-mini">
     </div>
-    <div class="transactions">
-      <div class="transaction">
-        <p class="transaction-text">Refueling gasoline</p>
-        <p class="transaction-sum">-$201.34</p>
+    <div class="down-header">
+      <div class="profile-info">
+        <img src="./img/logo-usr-mini.svg" alt="user icon bigger" class="user-max">
+        <p class="lower">Hi there,</p>
+        <p class="upper">Worthy AG (@worthyag)</p>
       </div>
-      <div class="transaction">
-        <p class="transaction-text">Purchase of furniture</p>
-        <p class="transaction-sum">-$567.14</p>
-      </div>
-      <div class="transaction">
-        <p class="transaction-text">Cash refund for tickets</p>
-        <p class="transaction-sum">+568.11</p>
+      <div class="header-buttons">
+        <button type="button">New</button>
+        <button type="button">Upload</button>
+        <button type="button">Share</button>
       </div>
     </div>
   </div>
-  <div class="my-card">
-    <div class="head">
-      <h2 class="h2">My Card</h2>
-      <div class="more">
-        <div class="point"></div>
-        <div class="point"></div>
-        <div class="point"></div>
+  <div class="main">
+    <div class="projects">
+      <h2>Your Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Super Cool Project</h3>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, viverra.</p>
+          <img src="./img/icon-star.svg" alt="star">
+          <img src="./img/icon-watch.svg" alt="eye">
+          <img src="./img/icon-fork-code.svg" alt="fork"></div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h3>Less Cool Project</h3>
+          <p class="description">Pulvinar nisl ipsum morbi diam scelerisque lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, viverra.</p>
+          <img src="./img/icon-star.svg" alt="star">
+          <img src="./img/icon-watch.svg" alt="eye">
+          <img src="./img/icon-fork-code.svg" alt="fork"></div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h3>Impossible App</h3>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam.</p>
+          <img src="./img/icon-star.svg" alt="star">
+          <img src="./img/icon-watch.svg" alt="eye">
+          <img src="./img/icon-fork-code.svg" alt="fork"></div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h3>Easy Peasy App</h3>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, orbi diam scviverra.</p>
+          <img src="./img/icon-star.svg" alt="star">
+          <img src="./img/icon-watch.svg" alt="eye">
+          <img src="./img/icon-fork-code.svg" alt="fork"></div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h3>Ad Blocker</h3>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, viverra.</p>
+          <img src="./img/icon-star.svg" alt="star">
+          <img src="./img/icon-watch.svg" alt="eye">
+          <img src="./img/icon-fork-code.svg" alt="fork"></div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h3>Money Maker</h3>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar nisl ipsum morbi diam scelerisque pulvinar elementum, viverra.</p>
+          <img src="./img/icon-star.svg" alt="star">
+          <img src="./img/icon-watch.svg" alt="eye">
+          <img src="./img/icon-fork-code.svg" alt="fork"></div>
       </div>
     </div>
-    <div class="card-body">
-      <div class="current-balance">
-        <p class="balance-h"></p>
-        <p class="money"></p>
-      </div>
-      <div class="info">
-        <p class="number"></p>
-        <p class="expiry"></p>
-      </div>
-      <img src="./img/wpf_sim-card-chip.svg" alt="card chip" class="chip">
-      <img src="./img/visa.svg" alt="visa" class="visa">
-    </div>
-  </div>
-  <div class="analytics">
-    <div class="head">
-      <h2 class="h2">Analytics</h2>
-      <div class="select">
-        <p class="p-select">Last Month</p>
-        <img src="./img/chevron-down.svg" alt="select arrow">
+    <div class="announcements">
+      <h2>Announcements</h2>
+      <div class="announcements">
+        <div class="announcement">
+          <h4>Site Maintenance</h4>
+          <p></p>
+        </div>
+        <div class="announcement">
+          <h4>Community Share</h4>
+          <p></p>
+        </div>
+        <div class="announcement">
+          <h4>Updated Privacy Policy</h4>
+          <p></p>
+        </div>
       </div>
     </div>
-    <div class="body">
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
+    <div class="trending">
+      <h2>Trending</h2>
+      <div class="users">
+        <div class="user">
+          <img src="./img/logo-lizzie.svg" alt="lizzie">
+          <p>@lizzie</p>
+          <p>World Peace Builder</p>
+        </div>
+        <div class="user">
+          <img src="./img/logo-worthyag.svg" alt="worthy">
+          <p>@worthyag</p>
+          <p>Super Cool Project</p>
+        </div>
+        <div class="user">
+          <img src="./img/logo-daniel.svg" alt="daniel">
+          <p>@daniel</p>
+          <p>Life Changing App</p>
+        </div>
+        <div class="user">
+          <img src="./img/logo-angelica.svg" alt="angelica">
+          <p>@angelica</p>
+          <p>No Traffic Maker</p>
+        </div>
       </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-      <p class="an"></p>
-      <div class="empty-bar">
-        <div class="full-bar"></div>
-      </div>
-    </div>
-    <div class="total">
-      <p class="total-p"></p>
-      <p class="total-p"></p>
     </div>
   </div>
 </body>
