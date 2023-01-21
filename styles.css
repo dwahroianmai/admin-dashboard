@@ -1,10 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=Poppins:wght@700&display=swap');
+
+
 * {
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid green;
 }
 
 body {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 4fr;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #DEE6EC;
+  margin-top: 20px;
+  height: 83%;
+}
+
+.trending {
+  grid-column: 2 / 3;
+  margin-top: -150px;
+}
+
+.sidebar {
+  background: linear-gradient(#976DBA, #9F69B8);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.options, .settings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 14%;
+}
+
+.option {
+  display: flex;
+  gap: 10px; 
+  font-size: 24px;
+}
+
+.upper-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-header input {
+  appearance: none;
+  border: none;
+  background-color: #DEE6EC;
+  border-radius: 16px;
+  width: 64rem;
+  padding: 7px;
+}
+
+.upper-header input:focus {
+  outline: none;
+}
+
+.upper-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 6%;
+}
+
+.upper-header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 6%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.down-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-info {
+  margin-left: 6%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  width: 400px;
+}
+
+.profile-info img {
+  width: 21%;
+  height: auto;
+}
+
+.info-ps {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.upper {
+  font-size: 18px;
+}
+
+.lower {
+  font-size: 22px;
+}
+
+.header-buttons {
+  margin-right: 6%;
+  align-self: flex-end;
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  appearance: none;
+  border: none;
+  width: 9.5rem;
+  height: 2.5rem;
+  border-radius: 16px;
+  background-color: #318EC2;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.h2-proj, .h2-an {
+  margin: 30px 0;
+}
+
+.card {
+  width: 500px;
+  height: 200px;
+  background-color: white;
 }
